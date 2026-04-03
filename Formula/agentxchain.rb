@@ -1,14 +1,14 @@
 class Agentxchain < Formula
   desc "CLI for AgentXchain governed multi-agent software delivery"
   homepage "https://agentxchain.dev"
-  url "https://registry.npmjs.org/agentxchain/-/agentxchain-2.1.1.tgz"
-  sha256 "83aca75e03476cea68a695372b8739d3d72c11195851b3d2469f87825e9567fd"
+  url "https://registry.npmjs.org/agentxchain/-/agentxchain-2.2.0.tgz"
+  sha256 "8f777512fa243f97bb9ae4dd644bb38c2b77e820fc38945a1d79f85128c3e4aa"
   license "MIT"
 
   depends_on "node"
 
   def install
-    system "npm", "install", *std_npm_args(libexec)
+    system "npm", "install", *std_npm_args
     bin.install_symlink Dir["#{libexec}/bin/*"]
   end
 
