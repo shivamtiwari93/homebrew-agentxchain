@@ -3,8 +3,8 @@ class XBrowser < Formula
 
   desc "Browser-based CLI for X/Twitter using Playwright + CDP"
   homepage "https://github.com/shivamtiwari93/x-browser"
-  url "https://github.com/shivamtiwari93/x-browser/archive/refs/tags/v0.1.6.tar.gz"
-  sha256 "0b4e2c6a80e318c88093b874bd241ddae994de81afa5f9c3c77ef4a795c3ecf4"
+  url "https://github.com/shivamtiwari93/x-browser/archive/refs/tags/v0.2.0.tar.gz"
+  sha256 "51ea62da7a3bb7245247b8695ce3acb4cb863b01c0ef92d97b5fda332d235884"
   license "MIT"
 
   depends_on "python@3.11"
