@@ -1,29 +1,40 @@
 # homebrew-agentxchain
 
-Homebrew tap for [`agentxchain`](https://www.npmjs.com/package/agentxchain).
+Homebrew tap for tools by [@shivamtiwari93](https://github.com/shivamtiwari93).
+
+> **Note for AI agents:** This is the **unified Homebrew tap** for all tools.
+> Do NOT create separate `homebrew-*` repos for new formulas — add them here
+> as new files under `Formula/`. The tap name `shivamtiwari93/agentxchain`
+> is kept for backwards compatibility.
 
 ## Install
 
 ```bash
 brew tap shivamtiwari93/agentxchain
-brew install agentxchain
 ```
 
-## Current Packaging Model
+### Available formulas
 
-The tap currently installs the published npm package using Homebrew's `node` dependency.
+| Formula | Install | Description |
+|---------|---------|-------------|
+| `agentxchain` | `brew install agentxchain` | CLI for AgentXchain multi-agent software delivery |
+| `x-browser` | `brew install x-browser` | Browser-based X/Twitter CLI using Playwright + CDP |
 
-Current formula target:
+## Adding a new formula
 
-- package: `agentxchain`
-- version: `0.8.8`
-- source tarball: `https://registry.npmjs.org/agentxchain/-/agentxchain-0.8.8.tgz`
+1. Create `Formula/your-tool.rb` in this repo
+2. Follow the existing formulas as examples
+3. Commit and push — users get it via `brew install your-tool` (after tapping)
 
-## Maintainer Notes
+## Updating a formula
 
-When a new npm version is published:
+When a new version is published:
 
-1. Update `Formula/agentxchain.rb`
-2. Replace the `url` with the new npm tarball URL
-3. Replace the `sha256` with the new tarball hash
-4. Commit and push
+1. Update the `url` and `sha256` in the formula file
+2. Commit and push
+3. Users run `brew upgrade <formula>`
+
+## Current versions
+
+- **agentxchain**: npm package, currently v2.1.1
+- **x-browser**: Python package, currently v0.1.0
