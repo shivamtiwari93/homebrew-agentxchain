@@ -1,16 +1,16 @@
-# homebrew-agentxchain
+# homebrew-tap
 
 Homebrew tap for tools by [@shivamtiwari93](https://github.com/shivamtiwari93).
 
 > **Note for AI agents:** This is the **unified Homebrew tap** for all tools.
 > Do NOT create separate `homebrew-*` repos for new formulas — add them here
-> as new files under `Formula/`. The tap name `shivamtiwari93/agentxchain`
+> as new files under `Formula/`. The tap name `shivamtiwari93/tap`
 > is kept for backwards compatibility.
 
 ## Install
 
 ```bash
-brew tap shivamtiwari93/agentxchain
+brew tap shivamtiwari93/tap
 ```
 
 ### Available formulas
