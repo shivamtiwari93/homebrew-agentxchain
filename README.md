@@ -18,7 +18,6 @@ brew tap shivamtiwari93/tap
 | Formula | Install | Description |
 |---------|---------|-------------|
 | `agentxchain` | `brew install agentxchain` | CLI for AgentXchain multi-agent software delivery |
-| `x-browser` | `brew install x-browser` | Browser-based X/Twitter CLI using Playwright + CDP |
 
 ## Adding a new formula
 
@@ -36,5 +35,4 @@ When a new version is published:
 
 ## Current versions
 
-- **agentxchain**: npm package, currently v2.1.1
-- **x-browser**: Python package, currently v0.1.0
+- **agentxchain**: npm package, currently v2.11.0
