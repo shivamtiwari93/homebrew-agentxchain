@@ -35,4 +35,4 @@ When a new version is published:
 
 ## Current versions
 
-- **agentxchain**: npm package, currently v2.18.0
+- **agentxchain**: npm package, currently v2.39.0
